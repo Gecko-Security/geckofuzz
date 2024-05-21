@@ -1,0 +1,23 @@
+error[E0407]: method `backtrace` is not a member of trait `Error`
+  --> /Users/jj/Gecko/geckofuzz/target/release/build/eyre-78317f36f2c83377/out/probe.rs:19:9
+   |
+19 | /         fn backtrace(&self) -> Option<&Backtrace> {
+20 | |             let backtrace = Backtrace::capture();
+21 | |             match backtrace.status() {
+22 | |                 BacktraceStatus::Captured | BacktraceStatus::Disabled | _ => {}
+23 | |             }
+24 | |             unimplemented!()
+25 | |         }
+   | |_________^ not a member of trait `Error`
+
+warning: the feature `backtrace` has been stable since 1.65.0 and no longer requires an attribute to enable
+ --> /Users/jj/Gecko/geckofuzz/target/release/build/eyre-78317f36f2c83377/out/probe.rs:2:16
+  |
+2 |     #![feature(backtrace)]
+  |                ^^^^^^^^^
+  |
+  = note: `#[warn(stable_features)]` on by default
+
+error: aborting due to 1 previous error; 1 warning emitted
+
+For more information about this error, try `rustc --explain E0407`.

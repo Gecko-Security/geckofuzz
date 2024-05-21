@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/examples/CMakeFiles/cpp_example"
+		},
+		{
+			"file" : "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/examples/CMakeFiles/cpp_example.rule"
+		},
+		{
+			"file" : "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/examples/CMakeFiles/cpp_example-complete.rule"
+		},
+		{
+			"file" : "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/examples/cpp_example-prefix/src/cpp_example-stamp/cpp_example-build.rule"
+		},
+		{
+			"file" : "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/examples/cpp_example-prefix/src/cpp_example-stamp/cpp_example-configure.rule"
+		},
+		{
+			"file" : "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/examples/cpp_example-prefix/src/cpp_example-stamp/cpp_example-download.rule"
+		},
+		{
+			"file" : "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/examples/cpp_example-prefix/src/cpp_example-stamp/cpp_example-install.rule"
+		},
+		{
+			"file" : "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/examples/cpp_example-prefix/src/cpp_example-stamp/cpp_example-mkdir.rule"
+		},
+		{
+			"file" : "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/examples/cpp_example-prefix/src/cpp_example-stamp/cpp_example-patch.rule"
+		},
+		{
+			"file" : "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/examples/cpp_example-prefix/src/cpp_example-stamp/cpp_example-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"cpp_example"
+		],
+		"name" : "cpp_example"
+	}
+}

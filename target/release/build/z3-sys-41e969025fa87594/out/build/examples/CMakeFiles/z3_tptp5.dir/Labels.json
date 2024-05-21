@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/examples/CMakeFiles/z3_tptp5"
+		},
+		{
+			"file" : "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/examples/CMakeFiles/z3_tptp5.rule"
+		},
+		{
+			"file" : "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/examples/CMakeFiles/z3_tptp5-complete.rule"
+		},
+		{
+			"file" : "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/examples/z3_tptp5-prefix/src/z3_tptp5-stamp/z3_tptp5-build.rule"
+		},
+		{
+			"file" : "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/examples/z3_tptp5-prefix/src/z3_tptp5-stamp/z3_tptp5-configure.rule"
+		},
+		{
+			"file" : "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/examples/z3_tptp5-prefix/src/z3_tptp5-stamp/z3_tptp5-download.rule"
+		},
+		{
+			"file" : "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/examples/z3_tptp5-prefix/src/z3_tptp5-stamp/z3_tptp5-install.rule"
+		},
+		{
+			"file" : "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/examples/z3_tptp5-prefix/src/z3_tptp5-stamp/z3_tptp5-mkdir.rule"
+		},
+		{
+			"file" : "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/examples/z3_tptp5-prefix/src/z3_tptp5-stamp/z3_tptp5-patch.rule"
+		},
+		{
+			"file" : "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/examples/z3_tptp5-prefix/src/z3_tptp5-stamp/z3_tptp5-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"z3_tptp5"
+		],
+		"name" : "z3_tptp5"
+	}
+}

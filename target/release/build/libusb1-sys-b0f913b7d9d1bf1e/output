@@ -1,0 +1,147 @@
+cargo:rerun-if-env-changed=LIBUSB_STATIC
+cargo:rerun-if-env-changed=LIBUSB_1.0_NO_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG_aarch64-apple-darwin
+cargo:rerun-if-env-changed=PKG_CONFIG_aarch64_apple_darwin
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_aarch64-apple-darwin
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_aarch64_apple_darwin
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_aarch64-apple-darwin
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_aarch64_apple_darwin
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_aarch64-apple-darwin
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_aarch64_apple_darwin
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_aarch64-apple-darwin
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_aarch64_apple_darwin
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_aarch64-apple-darwin
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_aarch64_apple_darwin
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_aarch64-apple-darwin
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_aarch64_apple_darwin
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+Can't find libusb pkg: Could not run `PKG_CONFIG_ALLOW_SYSTEM_LIBS=1 PKG_CONFIG_ALLOW_SYSTEM_CFLAGS=1 pkg-config --libs --cflags libusb-1.0`
+The pkg-config command could not be found.
+
+Most likely, you need to install a pkg-config package for your OS.
+Try `brew install pkg-config` if you have Homebrew.
+
+If you've already installed it, ensure the pkg-config command is one of the
+directories in the PATH environment variable.
+
+If you did not expect this build to link to a pre-installed system library,
+then check documentation of the libusb1-sys crate for an option to
+build the library from source, or disable features or dependencies
+that require pkg-config.
+cargo:vendored=1
+cargo:static=1
+cargo:include=/Users/jj/Gecko/geckofuzz/target/release/build/libusb1-sys-b0f913b7d9d1bf1e/out/include
+cargo:rustc-link-lib=framework=CoreFoundation
+cargo:rustc-link-lib=framework=IOKit
+cargo:rustc-link-lib=framework=Security
+cargo:rerun-if-env-changed=LIBUDEV_NO_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG_aarch64-apple-darwin
+cargo:rerun-if-env-changed=PKG_CONFIG_aarch64_apple_darwin
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG
+cargo:rerun-if-env-changed=LIBUDEV_STATIC
+cargo:rerun-if-env-changed=LIBUDEV_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_aarch64-apple-darwin
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_aarch64_apple_darwin
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_aarch64-apple-darwin
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_aarch64_apple_darwin
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_aarch64-apple-darwin
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_aarch64_apple_darwin
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=LIBUDEV_STATIC
+cargo:rerun-if-env-changed=LIBUDEV_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_aarch64-apple-darwin
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_aarch64_apple_darwin
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_aarch64-apple-darwin
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_aarch64_apple_darwin
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_aarch64-apple-darwin
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_aarch64_apple_darwin
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+Including posix!
+TARGET = Some("aarch64-apple-darwin")
+OPT_LEVEL = Some("3")
+HOST = Some("aarch64-apple-darwin")
+cargo:rerun-if-env-changed=CC_aarch64-apple-darwin
+CC_aarch64-apple-darwin = None
+cargo:rerun-if-env-changed=CC_aarch64_apple_darwin
+CC_aarch64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:rerun-if-env-changed=CFLAGS_aarch64-apple-darwin
+CFLAGS_aarch64-apple-darwin = None
+cargo:rerun-if-env-changed=CFLAGS_aarch64_apple_darwin
+CFLAGS_aarch64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' from command line tools installation
+cargo:warning=xcrun: error: unable to lookup item 'PlatformVersion' in SDK '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk'
+cargo:rerun-if-env-changed=AR_aarch64-apple-darwin
+AR_aarch64-apple-darwin = None
+cargo:rerun-if-env-changed=AR_aarch64_apple_darwin
+AR_aarch64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS_aarch64-apple-darwin
+ARFLAGS_aarch64-apple-darwin = None
+cargo:rerun-if-env-changed=ARFLAGS_aarch64_apple_darwin
+ARFLAGS_aarch64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+cargo:rustc-link-lib=static=usb-vendored
+cargo:rustc-link-search=native=/Users/jj/Gecko/geckofuzz/target/release/build/libusb1-sys-b0f913b7d9d1bf1e/out
+cargo:version_number=1.0.24

@@ -1,0 +1,13 @@
+prefix=/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out
+exec_prefix=/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out
+libdir=${exec_prefix}/lib
+sharedlibdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: z3
+Description: The Z3 Theorem Prover
+Version: 4.12.1.0
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz3
+Cflags: -I${includedir}

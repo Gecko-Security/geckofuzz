@@ -1,0 +1,1 @@
+cmd='/opt/homebrew/Cellar/cmake/3.27.9/bin/cmake;-DZ3_DIR=/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build;-DCMAKE_BUILD_TYPE:STRING=Release;-GUnix Makefiles;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'
