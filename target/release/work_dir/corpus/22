@@ -1,8 +1,0 @@
-Reverted? false 
- Txn:
-[38;2;205;121;221m[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd[0m
-   ├─[1] [38;2;0;118;255mRouter[0m.[38;2;255;123;114mswapExactETHForTokens[0m{value: [38;2;153;0;204m19581[0m}(0, path:(WETH → [38;2;179;73;114m0xc342774492b54ce5F8ac662113ED702Fc1b34972[0m), address(this), block.timestamp);
-   ├─[1] [38;2;0;118;255mRouter[0m.[38;2;255;123;114mswapExactETHForTokens[0m{value: [38;2;153;0;204m563251056[0m}(0, path:(WETH → [38;2;179;73;114m0xc342774492b54ce5F8ac662113ED702Fc1b34972[0m), address(this), block.timestamp);
-   ├─[1] [38;2;0;118;255mRouter[0m.[38;2;255;123;114mswapExactETHForTokens[0m{value: [38;2;153;0;204m1208925.8196 ether[0m}(0, path:(WETH → [38;2;179;73;114m0xc342774492b54ce5F8ac662113ED702Fc1b34972[0m), address(this), block.timestamp);
-   ├─[1] [38;2;179;73;114m0xc342774492b54ce5F8ac662113ED702Fc1b34972[0m.[38;2;255;123;114mincreaseAllowance[0m([38;2;205;121;221m0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd[0m, 349455.1142 ether)
-   │  └─ ← 0x01

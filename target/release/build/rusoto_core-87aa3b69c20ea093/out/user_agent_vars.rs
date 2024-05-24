@@ -1,1 +1,0 @@
-static RUST_VERSION: &str = "1.77.0-nightly";
