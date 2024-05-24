@@ -964,7 +964,7 @@ impl ContractLoader {
         }
         // Deploy preset WETH
         let weth_addr = EVMAddress::from_str(PRESET_WETH).unwrap();
-        let hex_code = include_str!("../../tests/presets/v2_pair/WETH9.bytecode").trim();
+        let hex_code = include_str!("v2_pair/WETH9.bytecode").trim();
         let weth_code = Bytes::from(hex::decode(hex_code).unwrap());
         let deployed_weth = evm_executor.deploy(Bytecode::new_raw(weth_code), None, weth_addr, &mut state);
         assert!(deployed_weth.is_some(), "failed to deploy WETH");

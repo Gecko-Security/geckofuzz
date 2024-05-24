@@ -3,7 +3,7 @@ Instruction Coverage: 356/2536 (14.04%)
 Branch Coverage: 17/122 (13.93%) 
 --------------------------------
 Contract: 0xc342774492b54ce5f8ac662113ed702fc1b34972
-Instruction Coverage: 3149/5285 (59.58%) 
+Instruction Coverage: 3252/5285 (61.53%) 
 Branch Coverage: 104/220 (47.27%) 
 --------------------------------
 Contract: 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c

@@ -38,6 +38,8 @@ INFO:root:Using /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z
 INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/src/params/tactic_params.hpp"
 INFO:root:Using /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/params/arith_rewriter_params.pyg
 INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/src/params/arith_rewriter_params.hpp"
+INFO:root:Using /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/polynomial/algebraic_params.pyg
+INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/src/math/polynomial/algebraic_params.hpp"
 INFO:root:Using /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/params/array_rewriter_params.pyg
 INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/src/params/array_rewriter_params.hpp"
 INFO:root:Using /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/params/bool_rewriter_params.pyg
@@ -58,19 +60,17 @@ INFO:root:Using /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z
 INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/src/params/seq_rewriter_params.hpp"
 INFO:root:Using /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/params/solver_params.pyg
 INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/src/params/solver_params.hpp"
-INFO:root:Using /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/polynomial/algebraic_params.pyg
-INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/src/math/polynomial/algebraic_params.hpp"
 /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/polynomial/polynomial.cpp:3630:22: warning: variable 'counter' set but not used [-Wunused-but-set-variable]
             unsigned counter = 0;
                      ^
 /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/polynomial/polynomial.cpp:4174:22: warning: variable 'counter' set but not used [-Wunused-but-set-variable]
             unsigned counter   = 0;
                      ^
-INFO:root:Using /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/realclosure/rcf_params.pyg
-INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/src/math/realclosure/rcf_params.hpp"
 2 warnings generated.
 INFO:root:Using /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/ast/pp_params.pyg
 INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/src/ast/pp_params.hpp"
+INFO:root:Using /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/math/realclosure/rcf_params.pyg
+INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/src/math/realclosure/rcf_params.hpp"
 INFO:root:Using /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/parsers/util/parser_params.pyg
 INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/src/parsers/util/parser_params.hpp"
 INFO:root:Using /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/smt/params/smt_params_helper.pyg
@@ -78,32 +78,32 @@ INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e96
 /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/ast/rewriter/bool_rewriter.cpp:553:14: warning: variable 'rounds' set but not used [-Wunused-but-set-variable]
     unsigned rounds = 0;
              ^
-INFO:root:Using /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/sat_simplifier_params.pyg
 /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/ast/rewriter/bv_rewriter.cpp:1557:28: warning: unused variable 'arg' [-Wunused-variable]
                 for (expr* arg : new_args)
                            ^
+INFO:root:Using /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/sat_simplifier_params.pyg
 INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/src/sat/sat_simplifier_params.hpp"
 INFO:root:Using /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/sat_asymm_branch_params.pyg
 INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/src/sat/sat_asymm_branch_params.hpp"
-INFO:root:Using /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/sat_scc_params.pyg
-INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/src/sat/sat_scc_params.hpp"
 INFO:root:Using /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/sat_params.pyg
 INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/src/sat/sat_params.hpp"
+INFO:root:Using /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/sat_scc_params.pyg
+INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/src/sat/sat_scc_params.hpp"
 1 warning generated.
 /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/ast/rewriter/hoist_rewriter.cpp:56:14: warning: variable 'round' set but not used [-Wunused-but-set-variable]
     unsigned round = 0;
              ^
-1 warning generated.
 /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/ast/rewriter/inj_axiom.cpp:55:26: warning: variable 'num_vars' set but not used [-Wunused-but-set-variable]
                 unsigned num_vars = 1;
                          ^
+1 warning generated.
+1 warning generated.
 /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/ast/rewriter/macro_replacer.cpp:81:21: warning: unused variable 'q' [-Wunused-variable]
         quantifier* q = nullptr;
                     ^
 /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/ast/rewriter/macro_replacer.cpp:82:41: warning: unused variable 'd2' [-Wunused-variable]
         func_decl* d = n->get_decl(), * d2 = nullptr;
                                         ^
-1 warning generated.
 1 warning generated.
 2 warnings generated.
 /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/sat_clause_use_list.cpp:25:18: warning: variable 'sz' set but not used [-Wunused-but-set-variable]
@@ -119,14 +119,14 @@ INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e96
 /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/sat_drat.cpp:366:41: warning: variable 'num_true' set but not used [-Wunused-but-set-variable]
                 unsigned num_undef = 0, num_true = 0;
                                         ^
+2 warnings generated.
 /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/sat_integrity_checker.cpp:101:18: warning: variable 'num_frozen' set but not used [-Wunused-but-set-variable]
         unsigned num_frozen = 0;
                  ^
-2 warnings generated.
-1 warning generated.
 /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/sat_local_search.cpp:583:18: warning: variable 'reflipped' set but not used [-Wunused-but-set-variable]
         unsigned reflipped = 0;
                  ^
+1 warning generated.
 /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/sat_model_converter.cpp:162:44: warning: variable 'itbegin' set but not used [-Wunused-but-set-variable]
             literal_vector::const_iterator itbegin = it;
                                            ^
@@ -155,22 +155,22 @@ In file included from /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15
 INFO:root:Using /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/nlsat/nlsat_params.pyg
 INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/src/nlsat/nlsat_params.hpp"
 1 warning generated.
-INFO:root:Using /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/model/model_evaluator_params.pyg
 INFO:root:Using /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/model/model_params.pyg
-INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/src/model/model_evaluator_params.hpp"
 INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/src/model/model_params.hpp"
+INFO:root:Using /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/model/model_evaluator_params.pyg
+INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/src/model/model_evaluator_params.hpp"
 /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/smt/arith_diagnostics.cpp:86:18: warning: variable 'i' set but not used [-Wunused-but-set-variable]
         unsigned i = 0;
                  ^
 1 warning generated.
+INFO:root:Using /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/solver/parallel_params.pyg
+INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/src/solver/parallel_params.hpp"
 /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/tactic/core/cofactor_elim_term_ite.cpp:441:26: warning: variable 'step' set but not used [-Wunused-but-set-variable]
                 unsigned step = 0;
                          ^
 /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/tactic/core/cofactor_elim_term_ite.cpp:518:22: warning: variable 'step' set but not used [-Wunused-but-set-variable]
             unsigned step = 0;
                      ^
-INFO:root:Using /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/solver/parallel_params.pyg
-INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/src/solver/parallel_params.hpp"
 INFO:root:Using /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/solver/combined_solver_params.pyg
 INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/src/solver/combined_solver_params.hpp"
 2 warnings generated.
@@ -188,14 +188,14 @@ INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e96
 /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/smt/pb_solver.cpp:3408:18: warning: variable 'num_max_level' set but not used [-Wunused-but-set-variable]
         unsigned num_max_level = 0;
                  ^
-2 warnings generated.
 /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/smt/q_eval.cpp:127:18: warning: variable 'count' set but not used [-Wunused-but-set-variable]
         unsigned count = 0;
                  ^
+1 warning generated.
 /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/smt/q_mam.cpp:3800:22: warning: variable 'lbl' set but not used [-Wunused-but-set-variable]
             unsigned lbl = 0;
                      ^
-1 warning generated.
+2 warnings generated.
 1 warning generated.
 /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/sat/smt/tseitin_theory_checker.cpp:193:21: warning: use of bitwise '&' with boolean operands [-Wbitwise-instead-of-logical]
                 if (is_marked(y) & is_complement(x))
@@ -218,9 +218,6 @@ INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e96
                  ^
 1 warning generated.
 2 warnings generated.
-/Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/tactic/fd_solver/smtfd_solver.cpp:1043:22: warning: variable 'r' set but not used [-Wunused-but-set-variable]
-            unsigned r = 0;
-                     ^
 In file included from /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/smt/smt_context.cpp:38:
 In file included from /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/smt/theory_special_relations.h:24:
 In file included from /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/smt/theory_diff_logic.h:33:
@@ -230,6 +227,9 @@ In file included from /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15
 /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/smt/diff_logic.h:1874:30: warning: variable 'length' set but not used [-Wunused-but-set-variable]
                     unsigned length = 0;
                              ^
+/Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/tactic/fd_solver/smtfd_solver.cpp:1043:22: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+            unsigned r = 0;
+                     ^
 1 warning generated.
 /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/smt/smt_lookahead.cpp:82:18: warning: variable 'nf' set but not used [-Wunused-but-set-variable]
         unsigned nf = 0, nc = 0, ns = 0, n = 0;
@@ -237,7 +237,6 @@ In file included from /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15
 /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/smt/smt_lookahead.cpp:82:26: warning: variable 'nc' set but not used [-Wunused-but-set-variable]
         unsigned nf = 0, nc = 0, ns = 0, n = 0;
                          ^
-2 warnings generated.
 2 warnings generated.
 In file included from /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/smt/smt_setup.cpp:25:
 In file included from /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/smt/theory_diff_logic.h:33:
@@ -247,6 +246,7 @@ In file included from /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15
 /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/smt/diff_logic.h:1874:30: warning: variable 'length' set but not used [-Wunused-but-set-variable]
                     unsigned length = 0;
                              ^
+2 warnings generated.
 2 warnings generated.
 In file included from /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/smt/theory_arith.cpp:20:
 In file included from /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/smt/theory_arith_def.h:23:
@@ -314,27 +314,27 @@ INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e96
         unsigned old_remain = old_sz;
                  ^
 1 warning generated.
+/Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/muz/ddnf/ddnf.cpp:689:22: warning: variable 'idx' set but not used [-Wunused-but-set-variable]
+            unsigned idx = 0;
+                     ^
 /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/muz/spacer/spacer_convex_closure.cpp:25:6: warning: unused function 'is_int_matrix' [-Wunused-function]
 bool is_int_matrix(const spacer::spacer_matrix &matrix) {
      ^
 /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/muz/spacer/spacer_convex_closure.cpp:34:6: warning: unused function 'is_sorted' [-Wunused-function]
 bool is_sorted(const vector<rational> &data) {
      ^
-/Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/muz/ddnf/ddnf.cpp:689:22: warning: variable 'idx' set but not used [-Wunused-but-set-variable]
-            unsigned idx = 0;
-                     ^
-2 warnings generated.
 1 warning generated.
+2 warnings generated.
 INFO:root:Using /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/tactic/smtlogics/qfufbv_tactic_params.pyg
 INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/src/tactic/smtlogics/qfufbv_tactic_params.hpp"
 INFO:root:Using /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/opt/opt_params.pyg
 INFO:root:Generated "/Users/jj/Gecko/geckofuzz/target/release/build/z3-sys-41e969025fa87594/out/build/src/opt/opt_params.hpp"
-/Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/opt/opt_cores.cpp:259:31: warning: variable 'num_unsat' set but not used [-Wunused-but-set-variable]
-        unsigned num_sat = 0, num_unsat = 0, num_undef = 0;        
-                              ^
 /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/opt/opt_lns.cpp:177:22: warning: variable 'num_disjoint' set but not used [-Wunused-but-set-variable]
             unsigned num_disjoint = 0;
                      ^
+/Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/opt/opt_cores.cpp:259:31: warning: variable 'num_unsat' set but not used [-Wunused-but-set-variable]
+        unsigned num_sat = 0, num_unsat = 0, num_undef = 0;        
+                              ^
 1 warning generated.
 In file included from /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/opt/opt_solver.cpp:26:
 In file included from /Users/jj/.cargo/registry/src/index.crates.io-6f17d22bba15001f/z3-sys-0.8.1/z3/src/smt/theory_diff_logic.h:33:
