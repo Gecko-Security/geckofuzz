@@ -50,10 +50,10 @@ This builds and executable at `target/release/gecko`
 
 ## Features
 
-* **Chain forking** to fuzz contracts on any chain at any block number.
-* **Accurate exploit generation** for precision loss, integer overflow, fund stealing, Uniswap pair misuse etc.
-* **Reentrancy support** to concretely leverage potential reentrancy opportunities for exploring more code paths.
-* **Blazing fast power scheduling** to prioritize fuzzing on code that is more likely to have bugs.
+* **On-Chain forking** to fuzz contracts on any chain at any block number.
+* **Accurate exploit generation** for precision loss, integer overflow, fund stealing, Uniswap pair misuse etc (more coming soon).
+* **Reentrancy support** to leverage potential reentrancy opportunities for exploring more code paths.
+* **Fast power scheduling** to prioritize fuzzing on code that is more likely to have bugs (LLM Support coming soon).
 * **Symbolic execution** to generate test cases that cover more code paths than fuzzing alone.
 * **Flashloan support** assuming attackers have infinite funds to exploit flashloan vulnerabilities.
 * **Liquidation support** to simulate buying and selling any token from liquidity pools during fuzzing.
