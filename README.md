@@ -28,11 +28,13 @@ gecko evm -m test/Invariant.sol:Invariant -- forge test
 
 ## Docker
 
+You can build and run Gecko using Docker. There are 2 binaries, for on and off-chain testing.
 ```
 docker build -t gecko .
 ```
 
 ```
+docker run -it --rm -p 8000:8000 gecko
 
 ```
 
