@@ -15,7 +15,6 @@ tool combining fuzzing, formal verification and AI to find bugs in your code.
 ./gecko evm -t 0xFd7B111AA83b9b6F547E617C7601EfD997F64703\
  -f -c ETH\
  --onchain-block-number 18630392
-
 ```
 
 
