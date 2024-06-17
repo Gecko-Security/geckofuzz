@@ -4,8 +4,6 @@ A Gecko is a small, mostly carnivorous lizard known for feeding off bugs.
 Similarly, GeckoFuzz is a novel autonomous on-chain EVM smart contract auditing
 tool combining fuzzing, formal verification and AI to find bugs in your code.
 
-![image](https://github.com/Gecko-Security/geckofuzz/assets/22000925/103fcadc-c941-41fb-a160-ae032c9370f6)
-
 
 ## Example
 #### Fuzzing Deployed Smart Contract
@@ -67,5 +65,5 @@ This builds and executable at `target/release/gecko`
 * **Supports complex contracts initialization** using Foundry setup script, forking Anvil RPC, or providing a JSON config file.
 * Backed by SOTA Web2 fuzzing engine [LibAFL](https://github.com/AFLplusplus/LibAFL).
 
-## License
-Protected by no license yet
+
+- https://x.com/VitalikButerin/status/1759369749887332577
