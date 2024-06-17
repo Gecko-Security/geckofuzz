@@ -9,7 +9,7 @@ tool combining fuzzing, formal verification and AI to find bugs in your code.
 #### Fuzzing Deployed Smart Contract
 
 ### ETH
-[NFTTrader](0xc310e760778ecbca4c65b6c559874757a4c4ece0) on ETH mainnets has a bug in the contract allowing for a [reentrancy attack](https://app.blocksec.com/explorer/tx/eth/0xec7523660f8b66d9e4a5931d97ad8b30acc679c973b20038ba4c15d4336b393d). The contracts were drained for $3M for a are exploitable before block 18799488. Gecko can generate a full exploit to steal funds in less than 6 hours.
+[NFTTrader](https://etherscan.io/address/0xc310e760778ecbca4c65b6c559874757a4c4ece0) on ETH mainnets has a bug in the contract allowing for a [reentrancy attack](https://app.blocksec.com/explorer/tx/eth/0xec7523660f8b66d9e4a5931d97ad8b30acc679c973b20038ba4c15d4336b393d). The contracts were drained for $3M for a are exploitable before block 18799488. Gecko can generate a full exploit to steal funds in less than 6 hours.
 
 ```
 ./gecko evm -t 0xc310e760778ecbca4c65b6c559874757a4c4ece0\
