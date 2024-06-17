@@ -9,19 +9,18 @@ tool combining fuzzing, formal verification and AI to find bugs in your code.
 #### Fuzzing Deployed Smart Contract
 
 ### ETH
-[KyberSwap](https://etherscan.io/address/0xFd7B111AA83b9b6F547E617C7601EfD997F64703) was exploited across 6 chains and 17 transactions. Each transaction targeted and drained up to 5 pools from KyberSwap elastic CLAMM. Gecko can find the precision loss bug in less than 6 hours:
+[KyberSwap](https://etherscan.io/address/0xFd7B111AA83b9b6F547E617C7601EfD997F64703) was exploited fro $48M across 6 chains and 17 transactions. Each transaction targeted and drained up to 5 pools from KyberSwap elastic CLAMM. Gecko can find the precision loss bug in less than 10 hours:
+
+[NFTTrader](0xc310e760778ecbca4c65b6c559874757a4c4ece0) was exploited for $3M for a [reentrancy vulnearbility](https://app.blocksec.com/explorer/tx/eth/0xec7523660f8b66d9e4a5931d97ad8b30acc679c973b20038ba4c15d4336b393d). The contracts are exploitable before block 18799488. Gecko can generate a full exploit in less than 6 hours.
 
 ```
-./gecko evm -t 0xFd7B111AA83b9b6F547E617C7601EfD997F64703\
+./gecko evm -t 0xc310e760778ecbca4c65b6c559874757a4c4ece0\
  -f -c ETH\
- --onchain-block-number 18630392
+ --onchain-block-number 18799488
 ```
-
-
-
 
 ### BSC
-[BEGO](https://bscscan.com/txs?a=0xc342774492b54ce5F8ac662113ED702Fc1b34972) on BSC has a bug in the contract allowing arbitrary mint. The contracts are exploitable before block number 22315678. We can fork the chain and 
+[BEGO](https://bscscan.com/txs?a=0xc342774492b54ce5F8ac662113ED702Fc1b34972) on BSC has a bug in the contract allowing arbitrary mint. The contracts were exploited for 12WBNB (~$7,200) and are exploitable before block number 22315678. We can fork the chain and 
 Gecko can generate a full exploit to steal funds in **less than 1 minute**.
 
 ```
