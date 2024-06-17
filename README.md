@@ -61,5 +61,5 @@ This builds and executable at `target/release/gecko`
 * **Supports complex contracts initialization** using Foundry setup script, forking Anvil RPC, or providing a JSON config file.
 * Backed by SOTA Web2 fuzzing engine [LibAFL](https://github.com/AFLplusplus/LibAFL).
 
-
-
+## License
+Protected by no license yet
