@@ -1,0 +1,88 @@
+[32m INFO[0m fetching code from 5dfc7f3ebbb9cbfe89bc3fb70f750ee229a59f8c
+Contract loaded: 0x5dfc7f3ebbb9cbfe89bc3fb70f750ee229a59f8c
+[32m INFO[0m fetching code from 10ed43c718714eb63d5aa57b78b54704e256024e
+Contract loaded: 0x10ed43c718714eb63d5aa57b78b54704e256024e
+[32m INFO[0m fetching code from bb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+Contract loaded: 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[32m INFO[0m fetching code from 0fe261aee0d1c4dfddee4102e82dd425999065f4
+Contract loaded: 0x0fe261aee0d1c4dfddee4102e82dd425999065f4
+[32m INFO[0m 
+
+ ================ EVM Fuzzer Start ===================
+
+
+[32m INFO[0m Deploying contract: 0x5dfc7f3ebbb9cbfe89bc3fb70f750ee229a59f8c
+[32m INFO[0m Contract 0x5dfc7f3ebbb9cbfe89bc3fb70f750ee229a59f8c deployed to: 0x5dfc7f3ebbb9cbfe89bc3fb70f750ee229a59f8c
+[32m INFO[0m Deploying contract: 0x10ed43c718714eb63d5aa57b78b54704e256024e
+[32m INFO[0m Contract 0x10ed43c718714eb63d5aa57b78b54704e256024e deployed to: 0x10ed43c718714eb63d5aa57b78b54704e256024e
+[32m INFO[0m Deploying contract: 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[32m INFO[0m Contract 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c deployed to: 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+[32m INFO[0m Deploying contract: 0x0fe261aee0d1c4dfddee4102e82dd425999065f4
+[32m INFO[0m Contract 0x0fe261aee0d1c4dfddee4102e82dd425999065f4 deployed to: 0x0fe261aee0d1c4dfddee4102e82dd425999065f4
+[32m INFO[0m Deployed all contracts
+
+[32m INFO[0m Contract 0x5dfc7f3ebbb9cbfe89bc3fb70f750ee229a59f8c has no abi
+[32m INFO[0m Too many unknown function signature for "0x5dfc7f3ebbb9cbfe89bc3fb70f750ee229a59f8c", we are going to decompile this contract using Heimdall
+[32m INFO[0m fetching pairs for 0x5dfc7f3ebbb9cbfe89bc3fb70f750ee229a59f8c
+[32m INFO[0m fetching pairs for 0x5dfc7f3ebbb9cbfe89bc3fb70f750ee229a59f8c
+[32m INFO[0m fetching code from 7a2d2ec352ae6d5e4b5d74918d594e2a0a80b348
+[32m INFO[0m fetching code from 50c4235c34c8ce1188b6a23f8c8ba4c4464dbfab
+[32m INFO[0m fetching pairs for 0x55d398326f99059ff775485246999027b3197955
+[32m INFO[0m fetching pairs for 0x55d398326f99059ff775485246999027b3197955
+[32m INFO[0m fetching code from 16b9a82891338f9ba80e2d6970fdda79d1eb0dae
+[32m INFO[0m fetching code from 20bcc3b8a0091ddac2d0bc30f68e6cbb97de59cd
+[32m INFO[0m fetching code from 8840c6252e2e86e545defb6da98b2a0e26d8c1ba
+[32m INFO[0m fetching code from 55d398326f99059ff775485246999027b3197955
+[32m INFO[0m Contract 0x10ed43c718714eb63d5aa57b78b54704e256024e has no abi
+[32m INFO[0m Too many unknown function signature for "0x10ed43c718714eb63d5aa57b78b54704e256024e", we are going to decompile this contract using Heimdall
+[32m INFO[0m Contract 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c has no abi
+[32m INFO[0m Too many unknown function signature for "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c", we are going to decompile this contract using Heimdall
+[32m INFO[0m Contract 0x0fe261aee0d1c4dfddee4102e82dd425999065f4 has no abi
+[32m INFO[0m Too many unknown function signature for "0x0fe261aee0d1c4dfddee4102e82dd425999065f4", we are going to decompile this contract using Heimdall
+[32m INFO[0m [Stats #0] run time: 0h-0m-0s, clients: 1, corpus: 0, objectives: 0, executions: 0, exec/sec: 0.000
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? true 
+ Txn:
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   └─[1] Router.swapExactETHForTokens{value: 338283332630710835619.2309 ether}(0, path:(WETH → 0x5DfC7f3EbBB9Cbfe89bc3FB70f750Ee229a59F8c), address(this), block.timestamp);
+
+[32m INFO[0m ==========================================
+[32m INFO[0m [Testcase #0] run time: 0h-0m-0s, clients: 1, corpus: 96, objectives: 0, executions: 1, exec/sec: 0.000
+[32m INFO[0m fetching code from 8ef508aca04b32ff3ba5003177cb18bfa6cd79dd
+[32m INFO[0m fetching code from 7a2d2ec352ae6d5e4b5d74918d594e2a0a80b348
+[32m INFO[0m fetching pairs for 0x7a2d2ec352ae6d5e4b5d74918d594e2a0a80b348
+[32m INFO[0m fetching pairs for 0x7a2d2ec352ae6d5e4b5d74918d594e2a0a80b348
+[32m INFO[0m [Stats #0] run time: 0h-0m-0s, clients: 1, corpus: 96, objectives: 0, executions: 1, exec/sec: 0.000
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   └─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0x5DfC7f3EbBB9Cbfe89bc3FB70f750Ee229a59F8c), address(this), block.timestamp);
+
+[32m INFO[0m ==========================================
+[32m INFO[0m [Testcase #0] run time: 0h-0m-0s, clients: 1, corpus: 98, objectives: 0, executions: 2, exec/sec: 0.000
+[32m INFO[0m [Stats #0] run time: 0h-0m-0s, clients: 1, corpus: 98, objectives: 0, executions: 2, exec/sec: 0.000
+[32m INFO[0m ============= New Corpus Item =============
+[32m INFO[0m Reverted? false 
+ Txn:
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0x5DfC7f3EbBB9Cbfe89bc3FB70f750Ee229a59F8c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 30064771072}(0, path:(WETH → 0x5DfC7f3EbBB9Cbfe89bc3FB70f750Ee229a59F8c), address(this), block.timestamp);
+
+[32m INFO[0m ==========================================
+[32m INFO[0m [Testcase #0] run time: 0h-0m-0s, clients: 1, corpus: 99, objectives: 0, executions: 5, exec/sec: 0.000
+
+
+
+ Found vulnerabilities! 
+
+
+================ Description ================
+[Imbalanced Uniswap Pair]: In Uniswap pair 0x7a2d2ec352ae6d5e4b5d74918d594e2a0a80b348, reserves has changed from (0x00000000000000000000000000000000000000000000000000007b89429a9c63_U256, 0x000000000000000000000000000000000000000000000002c224e0ecb091601e_U256) to (0x00000000000000000000000000000000000000000000000000007c78c938f6c3_U256, 0x000000000000000000000000000000000000000000000002c224e0ecb091601e_U256). It is likely the token contract has incorrectly burned that token in the pair.
+
+================ Trace ================
+[Sender] 0x8EF508Aca04B32Ff3ba5003177cb18BfA6Cd79dd
+   ├─[1] Router.swapExactETHForTokens{value: 10.0 ether}(0, path:(WETH → 0x5DfC7f3EbBB9Cbfe89bc3FB70f750Ee229a59F8c), address(this), block.timestamp);
+   └─[1] Router.swapExactETHForTokens{value: 0.7205 ether}(0, path:(WETH → 0x5DfC7f3EbBB9Cbfe89bc3FB70f750Ee229a59F8c), address(this), block.timestamp);
+
+

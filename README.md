@@ -26,11 +26,16 @@ Run a Foundry invariant test defined in `Invariant` contract in `test/Invariant.
 gecko evm -m test/Invariant.sol:Invariant -- forge test
 ```
 
-## Install
+## Docker
 
+```
+docker build -t gecko .
 ```
 
 ```
+
+```
+
 
 ## Build From Source
 Install rust `https://rustup.rs/` (use nightly)
