@@ -7,6 +7,21 @@ tool combining fuzzing, formal verification and AI to find bugs in your code.
 
 ## Example
 #### Fuzzing Deployed Smart Contract
+
+### ETH
+[KyberSwap](https://etherscan.io/address/0xFd7B111AA83b9b6F547E617C7601EfD997F64703) was exploited across 6 chains and 17 transactions. Each transaction targeted and drained up to 5 pools from KyberSwap elastic CLAMM. Gecko can find the precision loss bug in less than 6 hours:
+
+```
+./gecko evm -t 0xFd7B111AA83b9b6F547E617C7601EfD997F64703\
+ -f -c ETH\
+ --onchain-block-number 18630392
+
+```
+
+
+
+
+### BSC
 [BEGO](https://bscscan.com/txs?a=0xc342774492b54ce5F8ac662113ED702Fc1b34972) on BSC has a bug in the contract allowing arbitrary mint. The contracts are exploitable before block number 22315678. We can fork the chain and 
 Gecko can generate a full exploit to steal funds.
 
