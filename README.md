@@ -9,8 +9,6 @@ tool combining fuzzing, formal verification and AI to find bugs in your code.
 #### Fuzzing Deployed Smart Contract
 
 ### ETH
-[KyberSwap](https://etherscan.io/address/0xFd7B111AA83b9b6F547E617C7601EfD997F64703) was exploited fro $48M across 6 chains and 17 transactions. Each transaction targeted and drained up to 5 pools from KyberSwap elastic CLAMM. Gecko can find the precision loss bug in less than 10 hours:
-
 [NFTTrader](0xc310e760778ecbca4c65b6c559874757a4c4ece0) was exploited for $3M for a [reentrancy vulnearbility](https://app.blocksec.com/explorer/tx/eth/0xec7523660f8b66d9e4a5931d97ad8b30acc679c973b20038ba4c15d4336b393d). The contracts are exploitable before block 18799488. Gecko can generate a full exploit in less than 6 hours.
 
 ```
