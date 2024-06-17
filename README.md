@@ -50,6 +50,7 @@ This builds and executable at `target/release/gecko`
 
 ## Features
 
+
 * **On-Chain forking** to fuzz contracts on any chain at any block number.
 * **Accurate exploit generation** for precision loss, integer overflow, fund stealing, Uniswap pair misuse etc (more coming soon).
 * **Reentrancy support** to leverage potential reentrancy opportunities for exploring more code paths.
