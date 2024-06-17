@@ -9,8 +9,8 @@ tool combining fuzzing, formal verification and AI to find bugs in your code.
 
 ## Example
 #### Fuzzing Deployed Smart Contract
-BEGO on BSC has a bug in the contract allowing arbitrary mint. The contracts are exploitable before block number 22315678. We can fork the chain and 
-Gecko can generate a  full exploit to steal funds from [0xc342774492b54ce5F8ac662113ED702Fc1b34972](https://bscscan.com/txs?a=0xc342774492b54ce5F8ac662113ED702Fc1b34972).
+[BEGO](https://bscscan.com/txs?a=0xc342774492b54ce5F8ac662113ED702Fc1b34972) on BSC has a bug in the contract allowing arbitrary mint. The contracts are exploitable before block number 22315678. We can fork the chain and 
+Gecko can generate a full exploit to steal funds.
 
 ```
 ./gecko evm -t 0xc342774492b54ce5F8ac662113ED702Fc1b34972\
