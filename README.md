@@ -9,7 +9,7 @@ tool combining fuzzing, formal verification and AI to find bugs in your code.
 #### Fuzzing Deployed Smart Contract
 
 ### ETH
-[NFTTrader](0xc310e760778ecbca4c65b6c559874757a4c4ece0) was exploited for $3M for a [reentrancy vulnearbility](https://app.blocksec.com/explorer/tx/eth/0xec7523660f8b66d9e4a5931d97ad8b30acc679c973b20038ba4c15d4336b393d). The contracts are exploitable before block 18799488. Gecko can generate a full exploit in less than 6 hours.
+[NFTTrader](0xc310e760778ecbca4c65b6c559874757a4c4ece0) on ETH mainnets has a bug in the contract allowing for a [reentrancy attack](https://app.blocksec.com/explorer/tx/eth/0xec7523660f8b66d9e4a5931d97ad8b30acc679c973b20038ba4c15d4336b393d). The contracts were drained for $3M for a are exploitable before block 18799488. Gecko can generate a full exploit to steal funds in less than 6 hours.
 
 ```
 ./gecko evm -t 0xc310e760778ecbca4c65b6c559874757a4c4ece0\
@@ -18,8 +18,7 @@ tool combining fuzzing, formal verification and AI to find bugs in your code.
 ```
 
 ### BSC
-[BEGO](https://bscscan.com/txs?a=0xc342774492b54ce5F8ac662113ED702Fc1b34972) on BSC has a bug in the contract allowing arbitrary mint. The contracts were exploited for 12WBNB (~$7,200) and are exploitable before block number 22315678. We can fork the chain and 
-Gecko can generate a full exploit to steal funds in **less than 1 minute**.
+[BEGO](https://bscscan.com/txs?a=0xc342774492b54ce5F8ac662113ED702Fc1b34972) on BSC has a bug in the contract allowing arbitrary mint. Gecko can generate a full exploit to steal funds in **less than 1 minute**.
 
 ```
 ./gecko evm -t 0xc342774492b54ce5F8ac662113ED702Fc1b34972\
